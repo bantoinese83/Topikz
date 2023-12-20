@@ -1,0 +1,30 @@
+/* src/components/Common/styles/Header.css */
+.header-toolbar {
+  padding: 20px; /* Increase padding */
+  background-color: rgba(0, 0, 0, 0.88);
+  border-radius: 10px;
+  display: flex; /* Add this line */
+  justify-content: space-between; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.header-logo {
+    margin-right: 20px;
+    flex-grow: 1; /* Add this line */
+}
+
+.header-title {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  flex-grow: 2; /* Add this line */
+}
+
+.header-notifications {
+  margin-left: 20px;
+  flex-grow: 1; /* Add this line */
+}
+
+.header-avatar {
+  margin-left: 20px;
+  flex-grow: 1; /* Add this line */
+}

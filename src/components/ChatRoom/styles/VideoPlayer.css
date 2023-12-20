@@ -1,0 +1,19 @@
+/* src/components/ChatRoom/styles/VideoPlayer.css */
+.VideoPlayer-container {
+  background-color: #474a50;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.VideoPlayer-description {
+  color: #ffffff;
+}
+
+.VideoPlayer-timestamp {
+  color: #ffffff;
+}
+
+.VideoPlayer-description,
+.VideoPlayer-timestamp {
+  color: white;
+}

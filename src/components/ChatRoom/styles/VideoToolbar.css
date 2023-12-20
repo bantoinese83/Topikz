@@ -1,0 +1,60 @@
+/* src/components/ChatRoom/styles/VideoToolbar.css */
+.video-toolbar {
+  background-color: #474a50;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.toolbar-button {
+  color: #ffffff;
+  margin-right: 10px;
+    background-color: #100f0f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(210, 27, 27, 0.5);
+  transition: all 0.3s ease; /* Add this line */
+
+
+}
+
+.toolbar-button:hover {
+  background-color: #d70d0d; /* Change the button color on hover */
+  transform: scale(1.1); /* Add this line */
+}
+
+.view-count {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.toolbar-button .MuiSvgIcon-root {
+  color: white;
+}
+.emoji-pop {
+  position: absolute;
+  font-size: 100px;
+  animation: pop-out 0.9s ease-in-out;
+  pointer-events: none; /* Ensures click events pass through the emoji */
+  opacity: 0;
+}
+
+@keyframes pop-out {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
