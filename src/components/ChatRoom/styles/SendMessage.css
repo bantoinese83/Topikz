@@ -1,0 +1,29 @@
+/* SendMessage.css */
+.sendMessage-form {
+    display: flex;
+    padding: 1rem;
+}
+
+.sendMessage-textField {
+    color: white;
+}
+
+.sendMessage-textField label.Mui-focused {
+    color: white; /* Color of the label when the input is focused */
+}
+
+.sendMessage-textField .MuiOutlinedInput-root {
+    &.Mui-focused fieldset {
+        border-color: white; /* Color of the border when the input is focused */
+    }
+}
+
+.sendMessage-button {
+    margin-left: 1rem;
+    color: white; /* Button text color */
+    background-color: #1976d2; /* Background color of the button, change as needed */
+}
+
+.sendMessage-button:hover {
+    background-color: #115293; /* Background color of the button on hover, change as needed */
+}

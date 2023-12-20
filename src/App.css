@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+    background: linear-gradient(45deg, #d70d0d, #1a1c1c, #1a1c1c, #d70d0d);
+  background-size: 400% 400%;
+  animation: Gradient 8s ease infinite;
+}
+
+.App .Routes {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}

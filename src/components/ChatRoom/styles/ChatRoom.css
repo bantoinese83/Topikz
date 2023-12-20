@@ -1,0 +1,14 @@
+/* src/components/ChatRoom/styles/ChatRoom.css */
+.ChatRoom-container {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* src/components/ChatRoom/styles/ChatRoom.css */
+.ChatRoom-card {
+  background-color: #474a50;
+}
+
+.ChatRoom-card-text {
+  color: #ffffff;
+}

@@ -1,0 +1,55 @@
+/* src/components/Common/styles/Navigation.css */
+.navigation-list-item {
+  padding: 12px 15px; /* Adjust padding for better spacing */
+  margin: 3px 0; /* Adjust margins for better spacing */
+  border-radius: 8px; /* Slightly larger border-radius for a modern look */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #333; /* Default text color */
+  font-weight: 500; /* Slightly bolder text */
+  display: flex; /* Use flexbox for aligning icon and text */
+  align-items: center; /* Align items vertically */
+}
+
+.navigation-list-item:hover {
+  background-color: #e8e8e8; /* Lighter background on hover */
+  color: #1a1c1c; /* Darker text color on hover */
+}
+
+.navigation-icon-button {
+  color: white;
+  margin-right: 15px; /* Slightly more spacing to the right */
+}
+
+.navigation-drawer {
+  width: 280px; /* Slightly wider drawer */
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for the drawer */
+}
+
+.navigation-drawer a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 12px; /* Slightly more spacing between links */
+}
+
+.navigation-drawer a:hover {
+  color: #007bff; /* A different color on hover for better visibility */
+}
+
+/* Additional Styles for Submenu */
+.navigation-submenu {
+  padding-left: 20px; /* Indent submenu items */
+}
+
+.navigation-submenu a {
+  font-size: 0.9em; /* Slightly smaller font size for submenu items */
+}
+
+.navigation-header {
+  font-size: 1.2em; /* Slightly larger font size for the navigation header */
+  font-weight: 600; /* Bolder for the navigation header */
+  padding-bottom: 10px; /* Spacing below the header */
+  border-bottom: 1px solid #ddd; /* Separator for the header */
+  margin-bottom: 15px; /* Spacing after the header */
+}

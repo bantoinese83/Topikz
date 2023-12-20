@@ -1,0 +1,41 @@
+/* src/components/ChatRoom/styles/Ads.css */
+.ads-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust to the desired width */
+  max-width: 600px; /* Set a max-width if necessary */
+  margin: 20px auto; /* Increased top and bottom margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensures the content is clipped */
+  gap: 20px; /* Add this line */
+  border-radius: 10px;
+    padding: 10px;
+  border : 1px solid #ccc;
+
+}
+
+
+.ads-container img {
+  max-width: 100%; /* Full width of the container */
+  height: auto; /* Height is auto to maintain aspect ratio */
+  display: block; /* Removes bottom space under the image */
+  border-radius: 10px;
+
+
+}
+
+
+/* Adjust the carousel controls if necessary */
+.carousel .control-dots .dot {
+  background: white; /* White dots for indicators */
+  opacity: 0.8; /* Partial transparency */
+}
+
+.carousel .control-dots .dot.selected {
+  background: #333; /* Darker dot for the selected indicator */
+}
+
+.carousel .control-arrow {
+  filter: invert(100%); /* Inverts the color for better visibility */
+}

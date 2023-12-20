@@ -1,0 +1,20 @@
+/* VideoUploadForm.css */
+
+.form-container {
+    color: white;
+    border-color: white;
+    padding: 20px; /* Add padding to the form */
+}
+
+.form-container .MuiTextField-root {
+    color: white;
+    border-color: white;
+    margin-bottom: 10px; /* Add spacing between text fields */
+}
+
+.form-container .MuiButton-root {
+    color: white;
+    border-color: white;
+    margin-top: 20px; /* Add spacing above the button */
+    margin-bottom: 20px; /* Add spacing below the button */
+}

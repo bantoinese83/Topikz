@@ -1,0 +1,31 @@
+/* src/components/ChatRoom/styles/MessageList.css */
+.message-list {
+  background-color: #131415;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-avatar {
+  margin-right: 10px;
+}
+
+.message-box {
+  color: #ffffff;
+}
+
+.message-username {
+  font-weight: bold;
+}
+
+.message-text {
+  margin-top: 5px;
+}
+
+.message-timestamp {
+  margin-top: 5px;
+  font-size: 0.8em;
+}
